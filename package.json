@@ -1,0 +1,55 @@
+{
+  "name": "sharkona",
+  "version": "1.0.0",
+  "description": "event managment system",
+  "main": "index.js",
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "axios": "^0.21.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raminawahda7/sharkona.git"
+  },
+  "keywords": [
+    "event",
+    "react"
+  ],
+  "author": "sharksTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raminawahda7/sharkona/issues"
+  },
+  "homepage": "https://github.com/raminawahda7/sharkona#readme"
+}
